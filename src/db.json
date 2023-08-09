@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Vijay Kishore",
+      "username": "Henry Smith",
+      "email": "Vijay@kishore.com",
+      "phone": "123-45678",
+      "website": "Henry Smith.com"
+    },
+    {
+      "id": 4,
+      "name": "Dinesh kumar",
+      "username": "Will Smith",
+      "email": "dinesh@kumar.com",
+      "phone": "123-45679",
+      "website": "Will Smith.com"
+    },
+    {
+      "id": 5,
+      "name": "santhosh kumar",
+      "username": "Erwin Smith",
+      "email": "santhosh@kumar.com",
+      "phone": "123-45670",
+      "website": "Erwin Smith.com"
+    },
+    {
+      "name": "boopathi",
+      "email": "test@123.com",
+      "phone": "1234563314",
+      "id": 6
+    },
+    {
+      "name": "Ajay",
+      "email": "Ajay@gmail.com",
+      "phone": "1874631402",
+      "id": 7
+    },
+    {
+      "name": "karthick",
+      "email": "james@1.com",
+      "phone": "4561567449",
+      "id": 8
+    },
+    {
+      "name": "sugumaran",
+      "email": "sugu@maran.com",
+      "phone": "257831155",
+      "id": 9
+    }
+  ]
+}
