@@ -4,7 +4,9 @@ import Home from "./Home";
 import Create from "./Create";
 import Update from "./Update";
 import Read from "./Read";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
@@ -15,6 +17,15 @@ const App = () => {
         <Route path="/update/:id" element={<Update />}></Route>
         <Route path="/read/:id" element={<Read />}></Route>
       </Routes>
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnHover
+        draggable
+        progress={undefined}
+      />
     </BrowserRouter>
   );
 };
